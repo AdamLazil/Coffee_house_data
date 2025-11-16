@@ -3,14 +3,7 @@
 import csv
 from PyPDF2 import PdfReader
 from pprint import pprint
-import tabula
 
-dfs = tabula.read_pdf(
-    "Uzaverka_pokladny_901_1_20231210_285.pdf", pages="all", multiple_tables=True
-)
-for i, df in enumerate(dfs):
-    print(f"Table {i}:")
-    pprint(df)
 
 with open("Uzaverka_pokladny_901_1_20231210_285.pdf", "rb") as file:
     reader = PdfReader(file)
@@ -18,8 +11,12 @@ with open("Uzaverka_pokladny_901_1_20231210_285.pdf", "rb") as file:
     for page in reader.pages:
         text += page.extract_text()
     lines = text.split("\n")
+    for line in lines:
+        line = line.strip()
+        print(line)
+
     ind = lines.index("Kavárna")
-    print(ind)
+    print(lines)
 
     with open("output.csv", "w", newline="", encoding="utf-8") as csvfile:
         csvwriter = csv.writer(csvfile)

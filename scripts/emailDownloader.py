@@ -2,17 +2,19 @@ import os
 from datetime import datetime
 from imapclient import IMAPClient
 from email import policy
+from email.parser import BytesParser
 import email
+import getpass
 
 # ===========
 # Konfigurace
 # ===========
 
 EMAIL = input("Zadejte emailovou adresu: ")
-PASSWORD = input("Zadejte heslo: ")
+PASSWORD = getpass.getpass(prompt="Zadejte heslo: ")
 IMAP_SERVER = "imap.seznam.cz"
 SUBJECT_KEYWORD = input("Zadejte klíčové slovo v předmětu emailu: ")
-OUTPUT_FOLDER = "E:/práce/firmy/cafe slavia/analysis/data_raw/output_data"
+OUTPUT_FOLDER = "E:/práce/firmy/cafe slavia/old/Coffee_house_data/output_data"
 
 
 # ===========
@@ -42,14 +44,12 @@ with IMAPClient(IMAP_SERVER) as server:
         print(f" - Nalezen email s předmětem: {subject}")
     print(f"Nalezeno {len(messages)} emailů.")
 
-    server.logout()
+    for msgid, data in server.fetch(messages, ["RFC822"]).items():
+        email_message = BytesParser(policy=policy.default).parsebytes(data[b"RFC822"])
 
-
-"""
-    for msgid, data in server.fetch(messages, ['RFC822']).items():
-        email_message = policy.default.parsebytes(data[b'RFC822'])
-
-        # Uložení příloh
+        # Uložení příloh a vytvočení složky, pokud neexistuje
+        if not os.path.exists(OUTPUT_FOLDER):
+            os.makedirs(OUTPUT_FOLDER)
         for part in email_message.iter_attachments():
             filename = part.get_filename()
             if filename:
@@ -57,4 +57,5 @@ with IMAPClient(IMAP_SERVER) as server:
                 with open(filepath, "wb") as f:
                     f.write(part.get_payload(decode=True))
                 print(f"Příloha '{filename}' uložena do '{OUTPUT_FOLDER}'.")
-"""
+
+print("Hotovo.")
