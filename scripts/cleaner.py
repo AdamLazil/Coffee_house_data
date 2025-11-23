@@ -3,14 +3,17 @@ import re
 
 # načtení souboru
 df = pd.read_csv("output.csv", header=None, dtype=str)
-pattern = r"[0-9][0-9].[0-9][0-9].[0-9][0-9][0-9][0-9]"
+pattern_nazev_cena = r"^(\w[\w\s\w]*?)\s+(\d[\d\s]*[,\.]\d{2})$"
 
+# hledání data v textu
 
 df.columns = ["raw"]
 for word in df["raw"]:
-    print("Found date! on position ", df[df["raw"] == word].index[0])
-    if re.match(pattern, word):
-        print("Found date! on position ", df[df["raw"] == word].index[0])
+    nazevCena = re.search(pattern_nazev_cena, word)
+    if nazevCena:
+        nazev = nazevCena.group(1)
+        cena = nazevCena.group(2)
+        print(nazev, cena)
 
 # pokud má jen jeden sloupec:
 df.columns = ["raw"]
