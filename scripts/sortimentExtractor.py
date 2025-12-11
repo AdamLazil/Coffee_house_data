@@ -3,6 +3,15 @@ import re
 data_path = "output.csv"
 
 
+# function to extract date from lines based on pattern
+def extract_date(lines, pattern):
+    text = " ".join(lines)
+    match = re.search(pattern, text)
+    if match:
+        return match.group(1)
+    return None
+
+
 def extract_sortiment(lines, start_pattern, end_pattern):
     extracting = False
     section_lines = []
@@ -38,7 +47,7 @@ def joiner(lines):
     return joined_lines
 
 
-def separate_values(lines, pattern):
+def separate_values(lines, pattern, date):
     separated_lines = []
 
     for line in lines:
@@ -48,15 +57,15 @@ def separate_values(lines, pattern):
             name = match.group(2)
             mount = match.group(3)
             price = match.group(4)
-            separated_lines.append((plu, name, mount, price))
+            separated_lines.append((plu, name, mount, price, date))
 
     return separated_lines
 
 
 def save_section_to_csv(section, output_path):
     with open(output_path, "w", encoding="utf-8") as file:
-        for plu, name, mount, price in section:
-            file.write(f"{plu},{name},{mount},{price}\n")
+        for plu, name, mount, price, date in section:
+            file.write(f"{plu},{name},{mount},{price},{date}\n")
 
 
 def main():
@@ -68,9 +77,11 @@ def main():
     pattern_plu = (
         r"^(\d{1,3})\s+(.+?)(?:\s+\d+[,\.]?\d*l.*?-.*?\s+)?(\d+,\d+)\s+(\d+[.,]\d{2})$"
     )
+    pattern_date = r"(\d{1,2}\.\d{1,2}\.\d{4})"
+    date = extract_date(lines, pattern_date)
     section = extract_sortiment(lines, start_pattern, end_pattern)
     joined = joiner(section)
-    separated = separate_values(joined, pattern_plu)
+    separated = separate_values(joined, pattern_plu, date)
     output_path = "extracted_sortiment.csv"
     save_section_to_csv(separated, output_path)
 

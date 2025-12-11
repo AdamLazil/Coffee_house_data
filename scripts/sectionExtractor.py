@@ -3,6 +3,15 @@ import re
 data_path = "output.csv"
 
 
+# function to extract date from lines based on pattern
+def extract_date(lines, pattern):
+    text = " ".join(lines)
+    match = re.search(pattern, text)
+    if match:
+        return match.group(1)
+    return None
+
+
 # extract only the section between start_pattern and end_pattern
 def extract_rastr(lines, start_pattern, end_pattern):
     extracting = False
@@ -23,7 +32,7 @@ def extract_rastr(lines, start_pattern, end_pattern):
 
 
 # function to separate name and value with regex pattern
-def separate_name_value(lines, pattern):
+def separate_name_value(lines, pattern, date):
     separated_lines = []
 
     for line in lines:
@@ -33,7 +42,7 @@ def separate_name_value(lines, pattern):
         if match:
             name = match.group(1)
             value = match.group(2)
-            separated_lines.append((name, value))
+            separated_lines.append((name, value, date))
 
     return separated_lines
 
@@ -41,8 +50,8 @@ def separate_name_value(lines, pattern):
 # save separated section to a csv with two columns: name and value
 def save_separated_to_csv(separated_lines, output_path):
     with open(output_path, "w", encoding="utf-8") as file:
-        for name, value in separated_lines:
-            file.write(f"{name},{value}\n")
+        for name, value, date in separated_lines:
+            file.write(f"{name},{value}, {date}\n")
 
 
 # main code
@@ -55,8 +64,10 @@ def main():
     # extract section
     section = extract_rastr(lines, start_pattern, end_pattern)
     # define pattern to separate name and value
+    pattern_date = r"(\d{1,2}\.\d{1,2}\.\d{4})"
     pattern = r"^(\w[\w\s\w]*?)\s+(\d[\d\s]*[,\.]\d{2})$"
-    separated_lines = separate_name_value(section, pattern)
+    date = extract_date(lines, pattern_date)
+    separated_lines = separate_name_value(section, pattern, date)
     # save to csv
     output_path = "extracted_rastr.csv"
     save_separated_to_csv(separated_lines, output_path)
