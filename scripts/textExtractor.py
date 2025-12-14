@@ -3,7 +3,7 @@ import csv
 from PyPDF2 import PdfReader
 
 
-input_dir = "E:/práce/firmy/cafe slavia/old/Coffee_house_data/output_data"
+input_dir = "E:/práce/firmy/cafe slavia/analysis/Coffee_house_data/data_raw/emailData"
 csv_dir = "output_csvs"
 
 
