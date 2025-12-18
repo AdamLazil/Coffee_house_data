@@ -2,8 +2,8 @@ import os
 import re
 import pandas as pd
 
-input_path = "output.csv"
-output_path = "E:/práce/firmy/cafe slavia/analysis/Coffee_house_data/data_clean"
+input_path = "E:/PROGRAMOVÁNÍ/Python/myPrograms/2025/output_csvs"
+output_path = "E:/PROGRAMOVÁNÍ/Python/myPrograms/2025/output_rastrs"
 
 
 # function to extract date from lines based on pattern
@@ -57,7 +57,8 @@ def separate_name_value(lines, pattern, date) -> list:
 def save_separated_to_csv(separated_lines, output_path):
     with open(output_path, "w", encoding="utf-8") as file:
         for name, value, date in separated_lines:
-            file.write(f"{name},{value}, {date}\n")
+            value = value.replace(",", ".")  # normalize decimal separator
+            file.write(f"{name},{value},{date}\n")
 
 
 def procesed_csvfolder(input_path, output_path):
@@ -98,12 +99,17 @@ def join_csvs(input_path, output_file):
 
         csv_path = os.path.join(input_path, filename)
         df = pd.read_csv(
-            csv_path, header=None, names=["Name", "Value", "Date"], dtype=str
+            csv_path,
+            header=None,
+            names=["Name", "Value", "Date"],
+            sep=",",
+            dtype=str,
+            engine="python",
         )
         dataframes.append(df)
 
     combined_df = pd.concat(dataframes, ignore_index=True)
-    combined_df.to_csv(output_file, index=False, encoding="iso-8859-2")
+    combined_df.to_csv(output_file, index=False, encoding="utf-8")
 
 
 # main code
