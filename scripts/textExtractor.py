@@ -10,7 +10,7 @@ csv_dir = "output_csvs"
 def extract_pdf_text(pdf_path: str) -> list[str]:
     """Extract text from a PDF and return as a list of lines."""
     reader = PdfReader(pdf_path)
-    text = ""
+    text = ""  # initialize empty text string
     for page in reader.pages:
         text += page.extract_text()
 
@@ -22,7 +22,7 @@ def save_lines_to_csv(lines: list[str], output_path: str) -> None:
     with open(output_path, "w", newline="", encoding="utf-8") as csvfile:
         csvwriter = csv.writer(csvfile)
         for line in lines:
-            csvwriter.writerow([line])
+            csvwriter.writerow([line])  # each line in its own row
     print("Text extracted and saved to output.csv")
 
 
