@@ -14,7 +14,9 @@ EMAIL = input("Zadejte emailovou adresu: ")
 PASSWORD = getpass.getpass(prompt="Zadejte heslo: ")
 IMAP_SERVER = "imap.seznam.cz"
 SUBJECT_KEYWORD = input("Zadejte klíčové slovo v předmětu emailu: ")
-OUTPUT_FOLDER = "E:/práce/firmy/cafe slavia/old/Coffee_house_data/output_data"
+OUTPUT_FOLDER = (
+    "E:/práce/firmy/cafe slavia/analysis/Coffee_house_data/data_raw/emailData"
+)
 
 
 # ===========
