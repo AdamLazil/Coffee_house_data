@@ -4,7 +4,9 @@ from PyPDF2 import PdfReader
 
 
 input_dir = "E:/práce/firmy/cafe slavia/analysis/Coffee_house_data/data_raw/emailData"
-csv_dir = "output_csvs"
+csv_dir = (
+    "E:/práce/firmy/cafe slavia/analysis/Coffee_house_data/data_raw/emailData_csvs"
+)
 
 
 def extract_pdf_text(pdf_path: str) -> list[str]:

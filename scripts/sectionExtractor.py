@@ -2,8 +2,10 @@ import os
 import re
 import pandas as pd
 
-input_path = "E:/PROGRAMOVÁNÍ/Python/myPrograms/2025/output_csvs"
-output_path = "E:/PROGRAMOVÁNÍ/Python/myPrograms/2025/output_rastrs"
+input_path = (
+    "E:/práce/firmy/cafe slavia/analysis/Coffee_house_data/data_raw/emailData_csvs"
+)
+output_path = "E:/práce/firmy/cafe slavia/analysis/Coffee_house_data/data_clean"
 
 
 # function to extract date from lines based on pattern
