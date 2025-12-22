@@ -1,0 +1,100 @@
+V I L A   S L A V I A
+"Dr. Veselého 139, 76326 Luhačovice"
+901 Uzávěrka
+15.11.2023
+------------
+V I L A   S L A V I A
+"Dr. Veselého 139, 76326 Luhačovice"
+Středisko: 1 - Restaurace
+Vystavil : Správce
+15.11.2023                         17:10
+========================================
+103 Tržba podle rastrů
+----------------------
+"Koktejly                          109,00"
+"Dorty                             163,00"
+"Káva                              432,00"
+"Teplé alkoholické nápoje           79,00"
+----------------------------------------
+"CELKEM TRŽBY                      783,00"
+111 Tržba podle plateb s rozpisem
+---------------------------------
+ÚČTENKY
+=======
+Platba             Cizí měna Domácí měna
+----------------------------------------
+"Hotově                            465,00"
+"Platební karta                    318,00"
+----------------------------------------
+"CELKEM                            783,00"
+ODVODY
+======
+Platba                             Odvod
+----------------------------------------
+"Hotově                            465,00"
+"Platební karta                    318,00"
+Rozpis bezhotovostních plateb
+-----------------------------
+Číslo    Částka  Poplatek
+----------------------------------------
+Typ platby : Platební karta
+----------------------------------------
+"10013077    174,00"
+"10013079     79,00"
+"10013082     65,00"
+----------------------------------------
+"CELKEM Platební karta           318,00"
+201 Rozpis DPH
+--------------             Sazba      Základ        Daň      Celkem
+----------------------------------------
+"10%      540,90      54,10      595,00"
+"21%      155,37      32,63      188,00"
+----------------------------------------
+CELKEM TRŽBY
+"696,27      86,73      783,00"
+303 Prodaný sortiment podle obj. míst
+-------------------------------------
+Kuchyně
+PLU  Název              Počet     Celkem
+----------------------------------------
+9 Espresso lungo s mlékem
+"1,0        52,00"
+"14 Cappuccino         2,0       130,00"
+----------------------------------------
+"Kuchyně Celkem                    182,00"
+Kavárna
+PLU  Název              Počet     Celkem
+----------------------------------------
+"-32 Slevový poukaz    -1,0       -15,00"
+"24 Horizont           1,0       250,00"
+"71 Aperol Spritz      1,0       109,00"
+"113 Svařák červený     1,0        79,00"
+"205 Koňak špička dort  1,0        89,00"
+"207 Rafaelo dort       1,0        89,00"
+----------------------------------------
+"Kavárna Celkem                    601,00"
+========================================
+"CELKEM TRŽBY                      783,00"
+613 Seznam poskytnutých slev
+----------------------------
+Účtenka       Částka  Sleva %      Sleva
+----------------------------------------
+"10013080      163,00    8,43%      15,00"
+----------------------------------------
+"CELKEM        163,00               15,00"
+607 Účtenky se záporným počtem
+------------------------------
+Počet dokladů                          0
+606 Stornované účtenky
+----------------------
+"CELKEM                              0,00"
+Počet dokladů                          0
+Stránka 1 / 2 15.11.2023 17:10:37 Správce
+SW Pokladna SAVARIN (c)ComInn s.r.o.  www.cominn.czV I L A   S L A V I A
+"Dr. Veselého 139, 76326 Luhačovice"
+602 Stornované objednávky
+-------------------------
+"CELKEM                              0,00"
+Počet dokladů                          0
+Stránka 2 / 2 15.11.2023 17:10:37 Správce
+SW Pokladna SAVARIN (c)ComInn s.r.o.  www.cominn.cz

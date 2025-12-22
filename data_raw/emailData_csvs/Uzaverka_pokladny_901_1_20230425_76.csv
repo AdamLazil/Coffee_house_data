@@ -1,0 +1,147 @@
+V I L A   S L A V I A
+"Dr. Veselého 139, 76326 Luhačovice"
+901 Uzávěrka
+25.04.2023
+------------
+V I L A   S L A V I A
+"Dr. Veselého 139, 76326 Luhačovice"
+Středisko: 1 - Restaurace
+Vystavil : Správce
+25.04.2023                         17:22
+========================================
+103 Tržba podle rastrů
+----------------------
+"Koktejly                          456,00"
+"Dezerty/pečené                     89,00"
+"Dorty                             712,00"
+"Káva                             1211,00"
+"Nealko                            283,00"
+"Víno & aperitivy                   98,00"
+----------------------------------------
+"CELKEM TRŽBY                     2849,00"
+111 Tržba podle plateb s rozpisem
+---------------------------------
+ÚČTENKY
+=======
+Platba             Cizí měna Domácí měna
+----------------------------------------
+"Hotově                           1118,00"
+"Platební karta                   1731,00"
+----------------------------------------
+"CELKEM                           2849,00"
+ODVODY
+======
+Platba                             Odvod
+----------------------------------------
+"Hotově                           1118,00"
+"Platební karta                   1731,00"
+Rozpis bezhotovostních plateb
+-----------------------------
+Číslo    Částka  Poplatek
+----------------------------------------
+Typ platby : Platební karta
+----------------------------------------
+10002104          Stornovaná
+"10002105    339,00"
+10002106          Stornující
+"10002107    193,00"
+"10002109    380,00"
+"10002110    314,00"
+"10002112    197,00            10002114    308,00"
+----------------------------------------
+"CELKEM Platební karta          1731,00"
+201 Rozpis DPH
+--------------
+Sazba      Základ        Daň      Celkem
+----------------------------------------
+"10%     2086,34     208,66     2295,00"
+"21%      457,85      96,15      554,00"
+----------------------------------------
+CELKEM TRŽBY
+"2544,19     304,81     2849,00"
+303 Prodaný sortiment podle obj. míst
+-------------------------------------
+Kuchyně
+PLU  Název              Počet     Celkem
+----------------------------------------
+"7 Espresso s mlékem  3,0       156,00"
+"8 Espresso bez mléka 1,0        52,00"
+9 Espresso lungo s mlékem
+"5,0       260,00"
+10 Espresso lungo bez mléka
+"3,0       156,00"
+"14 Cappuccino         3,0       195,00"
+"16 Espresso Macchiato 1,0        55,00"
+"17 Latté Macchiato    3,0       207,00"
+"20 Babyccino          2,0        68,00"
+"21 Vídeňská káva      1,0        62,00"
+----------------------------------------
+"Kuchyně Celkem                   1211,00"
+Kavárna
+PLU  Název              Počet     Celkem
+----------------------------------------
+"37 Jemně perlivá 0,33l"
+"3,0       117,00"
+"38 Neperlivá 0,33l    3,0       117,00"
+"41 Rauch džus 0,2l - jahodový"
+"1,0        49,00"
+"71 Aperol Spritz      1,0       109,00"
+"72 Mojito             2,0       238,00"
+"75 Lillet Pink Spritz 1,0       109,00"
+"108 Stáčené prosecco 0,2l"
+"1,0        98,00"
+201 Čokoládovo-ořechový dort
+"5,0       445,00"
+206 Meruňka jogurt dort
+"1,0        89,00"
+"207 Rafaelo dort       1,0        89,00"
+"209 Čokoládový dort    1,0        89,00"
+212 Větrník slaný karamel
+"1,0        89,00"
+----------------------------------------
+"Kavárna Celkem                   1638,00"
+========================================
+Stránka 1 / 2 25.4.2023 17:22:44 Správce
+SW Pokladna SAVARIN (c)ComInn s.r.o.  www.cominn.czV I L A   S L A V I A
+"Dr. Veselého 139, 76326 Luhačovice"
+"CELKEM TRŽBY                     2849,00"
+613 Seznam poskytnutých slev
+----------------------------
+Účtenka       Částka  Sleva %      Sleva
+----------------------------------------
+----------------------------------------
+"CELKEM          0,00                0,00"
+607 Účtenky se záporným počtem
+------------------------------
+Počet dokladů                          0
+606 Stornované účtenky
+----------------------
+S T O R N O V A N Á  ÚČTENKA č.10002104
+Na stůl:5.0
+Zapsal: Správce           25.04.23 14:56
+Stornoval: Správce        25.04.23 15:01
+----------------------------------------
+Espresso lungo s mlékem
+"2x    52,00     104,00"
+"Čokoládovo-ořechový dort           89,00"
+"Větrník slaný karamel              89,00"
+"Stáčené prosecco 0,2l              98,00"
+----------------------------------------
+"Celkem                     Kč     380,00"
+----------------------------------------
+"Platební karta             Kč     380,00"
+...ooOoo...
+"CELKEM                            380,00"
+Počet dokladů                          1
+602 Stornované objednávky
+-------------------------
+S T O R N O                  Doklad č.19
+Stůl:5.0
+Správce                   25.04.23 15:46
+----------------------------------------
+"80 Gin&tonic           109,00       2x"
+...ooOoo...
+"CELKEM                            218,00"
+Počet dokladů                          1
+Stránka 2 / 2 25.4.2023 17:22:44 Správce
+SW Pokladna SAVARIN (c)ComInn s.r.o.  www.cominn.cz

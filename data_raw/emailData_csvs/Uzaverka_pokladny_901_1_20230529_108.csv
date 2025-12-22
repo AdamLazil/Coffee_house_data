@@ -1,0 +1,177 @@
+V I L A   S L A V I A
+"Dr. Veselého 139, 76326 Luhačovice"
+901 Uzávěrka
+29.05.2023
+------------
+V I L A   S L A V I A
+"Dr. Veselého 139, 76326 Luhačovice"
+Středisko: 1 - Restaurace
+Vystavil : Správce
+29.05.2023                         18:31
+========================================
+103 Tržba podle rastrů
+----------------------
+"Slané                             129,00"
+"Koktejly                          425,00"
+"Nealko koktejly a vina            178,00"
+"Dezerty/pečené                    701,00"
+"Dorty                            1691,00"
+"Káva                             3159,00"
+"Nealko                           1414,00"
+"Víno & aperitivy                  658,00"
+----------------------------------------
+"CELKEM TRŽBY                     8355,00"
+111 Tržba podle plateb s rozpisem
+---------------------------------
+ÚČTENKY
+=======
+Platba             Cizí měna Domácí měna
+----------------------------------------
+"Hotově                           4349,00"
+"Platební karta                   4006,00"
+----------------------------------------
+"CELKEM                           8355,00"
+ODVODY
+======
+Platba                             Odvod
+----------------------------------------
+"Hotově                           4349,00"
+"Platební karta                   4006,00"
+Rozpis bezhotovostních plateb
+-----------------------------
+Číslo    Částka  Poplatek
+----------------------------------------
+Typ platby : Platební karta
+----------------------------------------
+"10003980    134,00"
+"10003981    259,00"
+"10003982    134,00"
+"10003983    104,00"
+"10003985    484,00            10003988    154,00"
+"10003989    661,00"
+"10003991    156,00"
+"10003992    170,00"
+"10003999    357,00"
+"10004000    218,00"
+"10004001    223,00"
+"10004002    318,00"
+"10004004    199,00"
+"10004006    182,00"
+"10004007    253,00"
+----------------------------------------
+"CELKEM Platební karta          4006,00"
+201 Rozpis DPH
+--------------
+Sazba      Základ        Daň      Celkem
+----------------------------------------
+"10%     6449,11     644,89     7094,00"
+"15%      154,78      23,22      178,00"
+"21%      895,04     187,96     1083,00"
+----------------------------------------
+CELKEM TRŽBY
+"7498,93     856,07     8355,00"
+303 Prodaný sortiment podle obj. míst
+-------------------------------------
+Kuchyně
+PLU  Název              Počet     Celkem
+----------------------------------------
+"7 Espresso s mlékem  3,0       156,00"
+"8 Espresso bez mléka 6,0       312,00"
+9 Espresso lungo s mlékem
+"11,0       572,00"
+10 Espresso lungo bez mléka
+"3,0       156,00"
+12 Espresso Doppio bez mléka
+"1,0        68,00"
+"13 Americano          4,0       220,00"
+"14 Cappuccino        10,0       650,00"
+"17 Latté Macchiato    4,0       276,00"
+18 Espresso Tonic klasik
+"2,0       150,00"
+19 Espresso Tonic Pink
+"1,0        75,00"
+"21 Vídeňská káva      5,0       345,00"
+"22 Alžírská káva      1,0        75,00"
+"26 Turek              2,0       104,00"
+----------------------------------------
+"Kuchyně Celkem                   3159,00"
+Kavárna
+PLU  Název              Počet     Celkem
+----------------------------------------
+"30 Limča 0,4l - malina"
+"4,0       260,00"
+"31 Limča 0,4l - borůvka"
+Stránka 1 / 2 29.5.2023 18:31:49 Správce
+SW Pokladna SAVARIN (c)ComInn s.r.o.  www.cominn.czV I L A   S L A V I A
+"Dr. Veselého 139, 76326 Luhačovice"
+"1,0        65,00"
+"32 Limča 0,4l - bez+cit"
+"4,0       260,00"
+"33 Limča 0,4l - rakyt,pomeranč"
+"3,0       195,00"
+"36 Royal Crown Cola Zero 0,25l"
+"1,0        49,00"
+"37 Jemně perlivá 0,33l"
+"4,0       156,00"
+"38 Neperlivá 0,33l    3,0       117,00"
+"44 Rauch džus 0,2l - hruškový"
+"1,0        49,00"
+"47 Karafa vody 1l     3,0       198,00"
+"58 Limča okurka       1,0        65,00"
+"74 Lillet Wild Berry  1,0       109,00"
+"77 Mimosa             1,0        98,00"
+"78 Hugo Spritz        1,0       109,00"
+"79 Pink Gin&tonic     1,0       109,00"
+"103 Chardonnay polosuché 0,2l"
+"1,0        68,00"
+"108 Stáčené prosecco 0,2l"
+"3,0       294,00"
+"109 Rulandské šedé suché 0,2l"
+"1,0        70,00"
+"110 Sauvignon premium suché 0,2l"
+"2,0       156,00"
+"122 Nealko Mojito      2,0       178,00"
+133 Rulandské modré / DR
+"1,0        70,00"
+"200 Lotus dort         3,0       267,00"
+"202 Pistáciový dort    2,0       178,00"
+206 Meruňka jogurt dort
+"2,0       178,00"
+"209 Čokoládový dort    1,0        89,00"
+"210 Tartaletka         4,0       316,00"
+"211 Kofila dort        4,0       356,00"
+212 Větrník slaný karamel
+"2,0       178,00"
+"214 Mák povidla dort   3,0       267,00"
+"220 Pana Cotta         3,0       207,00"
+"225 Malina-tvaroh dort 4,0       356,00"
+235 Škvarková pomazánka kavárna
+"1,0       129,00"
+----------------------------------------
+"Kavárna Celkem                   5196,00"
+========================================
+"CELKEM TRŽBY                     8355,00"
+613 Seznam poskytnutých slev
+----------------------------
+Účtenka       Částka  Sleva %      Sleva
+----------------------------------------
+----------------------------------------
+"CELKEM          0,00                0,00"
+607 Účtenky se záporným počtem
+------------------------------
+Počet dokladů                          0         606 Stornované účtenky
+----------------------
+"CELKEM                              0,00"
+Počet dokladů                          0
+602 Stornované objednávky
+-------------------------
+S T O R N O                  Doklad č.23
+Stůl:31.0
+Správce                   29.05.23 13:11
+----------------------------------------
+"200 Lotus dort           89,00       1x"
+...ooOoo...
+"CELKEM                             89,00"
+Počet dokladů                          1
+Stránka 2 / 2 29.5.2023 18:31:49 Správce
+SW Pokladna SAVARIN (c)ComInn s.r.o.  www.cominn.cz

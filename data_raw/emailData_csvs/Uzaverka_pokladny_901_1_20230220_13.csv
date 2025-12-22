@@ -1,0 +1,172 @@
+V I L A   S L A V I A
+"Dr. Veselého 139, 76326 Luhačovice"
+901 Uzávěrka
+20.02.2023
+------------
+V I L A   S L A V I A
+"Dr. Veselého 139, 76326 Luhačovice"
+Středisko: 1 - Restaurace
+Vystavil : Správce
+20.02.2023                         17:33
+========================================
+103 Tržba podle rastrů
+----------------------
+"Slané                             158,00"
+"Dorty                             900,00"
+"Káva                             1029,00"
+"Nealko                            117,00"
+"Víno & aperitivy                  485,00"
+----------------------------------------
+"CELKEM TRŽBY                     2689,00"
+111 Tržba podle plateb s rozpisem
+---------------------------------
+ÚČTENKY
+=======
+Platba             Cizí měna Domácí měna
+----------------------------------------
+"Hotově                           1062,00"
+"Platební karta                   1627,00"
+----------------------------------------
+"CELKEM                           2689,00"
+ODVODY
+======
+Platba                             Odvod
+----------------------------------------
+"Hotově                           1062,00"
+"Platební karta                   1627,00"
+Rozpis bezhotovostních plateb
+-----------------------------
+Číslo    Částka  Poplatek
+----------------------------------------
+Typ platby : Platební karta
+----------------------------------------
+"10000108    226,00"
+"10000109    317,00"
+10000112          Stornovaná
+10000113          Stornující
+"10000114    310,00"
+"10000115    193,00"
+"10000121    282,00"
+"10000123    299,00----------------------------------------"
+"CELKEM Platební karta          1627,00"
+201 Rozpis DPH
+--------------
+Sazba      Základ        Daň      Celkem
+----------------------------------------
+"10%     2003,62     200,38     2204,00"
+"21%      400,82      84,18      485,00"
+----------------------------------------
+CELKEM TRŽBY
+"2404,44     284,56     2689,00"
+303 Prodaný sortiment podle obj. míst
+-------------------------------------
+Kavárna
+PLU  Název              Počet     Celkem
+----------------------------------------
+"10 Espresso           4,0       208,00"
+"11 Espresso Lungo     8,0       416,00"
+"14 Cappuccino         2,0       130,00"
+"17 Latté Macchiato    2,0       138,00"
+"18 Espresso Tonic     1,0        75,00"
+"21 Vídeňská káva      1,0        62,00"
+"38 Neperlivá 0,33l    3,0       117,00"
+"103 Chardonnay 0,2l    2,0       120,00"
+"105 Prosecco - Alzaia Glera 0,1l"
+"5,0       245,00"
+"109 Pinot Gris 0,2l    2,0       120,00"
+"200 Lotus dort         2,0       178,00"
+201 Čokoládovo-ořechový dort
+"1,0        89,00"
+"203 Mechový dort       2,0       188,00"
+"204 Punčový dort       2,0       178,00"
+206 Meruňka jogurt dort
+"2,0       178,00"
+"207 Rafaelo dort       1,0        89,00"
+"231 Quiche             2,0       158,00"
+----------------------------------------
+"Kavárna Celkem                   2689,00"
+========================================
+"CELKEM TRŽBY                     2689,00"
+613 Seznam poskytnutých slev
+----------------------------
+Účtenka       Částka  Sleva %      Sleva
+----------------------------------------
+----------------------------------------
+"CELKEM          0,00                0,00"
+607 Účtenky se záporným počtem
+------------------------------
+Ú Č T E N K A   č.10000114
+Stránka 1 / 2 20.2.2023 17:33:23 Správce
+SW Pokladna SAVARIN (c)ComInn s.r.o.  www.cominn.czV I L A   S L A V I A
+"Dr. Veselého 139, 76326 Luhačovice"
+Stůl:5.0
+Správce                   20.02.23 14:02
+----------------------------------------
+"Prosecco - Alzaia Glera 0,1l"
+"2x    49,00      98,00"
+"Prosecco - Alzaia Glera 0,1l"
+"2x    49,00      98,00"
+"Stáčené prosecco 1l               250,00"
+"Cappuccino                         65,00"
+Stáčené prosecco 1l
+"-1x   250,00    -250,00"
+"Prosecco - Alzaia Glera 0,1l       49,00"
+----------------------------------------
+"Celkem                     Kč     310,00"
+----------------------------------------
+"Platební karta             Kč     310,00"
+...ooOoo...
+Ú Č T E N K A   č.10000118
+Stůl:6.0
+Správce                   20.02.23 15:01
+----------------------------------------
+"Latté Macchiato                    69,00"
+"Mechový dort                       89,00"
+"Flat White                         75,00"
+"Flat White       -1x    75,00     -75,00"
+"Mechový dort     -1x    99,00     -99,00"
+"Latté Macchiato  -1x    69,00     -69,00"
+----------------------------------------
+"Celkem                     Kč     -10,00"
+----------------------------------------
+"Hotově                     Kč     -10,00"
+...ooOoo...
+Počet dokladů                          2
+606 Stornované účtenky
+----------------------
+S T O R N O V A N Á  ÚČTENKA č.10000112
+Na stůl:5.0
+Zapsal: Správce           20.02.23 14:01
+Stornoval: Správce        20.02.23 14:01
+----------------------------------------
+"Prosecco - Alzaia Glera 0,1l"
+"2x    49,00      98,00"
+"Prosecco - Alzaia Glera 0,1l"
+"2x    49,00      98,00"
+"Stáčené prosecco 1l               250,00"
+"Cappuccino                         65,00"
+----------------------------------------
+"Celkem                     Kč     511,00"
+----------------------------------------
+"Platební karta             Kč     511,00"
+...ooOoo...
+S T O R N O V A N Á  ÚČTENKA č.10000116
+Na stůl:3.0
+Zapsal: Správce           20.02.23 14:59
+Stornoval: Správce        20.02.23 15:00----------------------------------------
+"Latté Macchiato                    69,00"
+"Mechový dort                       89,00"
+"Flat White                         75,00"
+----------------------------------------
+"Celkem                     Kč     233,00"
+----------------------------------------
+"Hotově                     Kč     233,00"
+...ooOoo...
+"CELKEM                            744,00"
+Počet dokladů                          2
+602 Stornované objednávky
+-------------------------
+"CELKEM                              0,00"
+Počet dokladů                          0
+Stránka 2 / 2 20.2.2023 17:33:23 Správce
+SW Pokladna SAVARIN (c)ComInn s.r.o.  www.cominn.cz

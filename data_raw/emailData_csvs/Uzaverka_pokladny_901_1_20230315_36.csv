@@ -1,0 +1,201 @@
+V I L A   S L A V I A
+"Dr. Veselého 139, 76326 Luhačovice"
+901 Uzávěrka
+15.03.2023
+------------
+V I L A   S L A V I A
+"Dr. Veselého 139, 76326 Luhačovice"
+Středisko: 1 - Restaurace
+Vystavil : Správce
+15.03.2023                         17:11
+========================================
+103 Tržba podle rastrů
+----------------------
+"Koktejly                          119,00"
+"Dezerty/pečené                     69,00"
+"Dorty                            1474,00"
+"Káva                             1814,00"
+"Nealko                            521,00"
+"Alkohol                            60,00"
+"Teplé nealko                      165,00"
+"Teplé alkoholické nápoje          130,00"
+"Víno & aperitivy                  376,00"
+----------------------------------------
+"CELKEM TRŽBY                     4728,00"
+111 Tržba podle plateb s rozpisem
+---------------------------------
+ÚČTENKY
+=======
+Platba             Cizí měna Domácí měna
+----------------------------------------
+"Hotově                           2234,00"
+"Platební karta                   2494,00"
+----------------------------------------
+"CELKEM                           4728,00"
+ODVODY
+======
+Platba                             Odvod
+----------------------------------------
+"Hotově                           2234,00"
+"Platební karta                   2494,00"
+Rozpis bezhotovostních plateb
+-----------------------------
+Číslo    Částka  Poplatek
+----------------------------------------
+Typ platby : Platební karta
+----------------------------------------
+"10000583    158,00"
+"10000587    229,00"
+"10000589    154,00"
+"10000590    180,00            10000591    141,00"
+"10000593    370,00"
+"10000594    421,00"
+"10000597    501,00"
+"10000601    340,00"
+----------------------------------------
+"CELKEM Platební karta          2494,00"
+201 Rozpis DPH
+--------------
+Sazba      Základ        Daň      Celkem
+----------------------------------------
+"10%     3675,44     367,56     4043,00"
+"21%      566,13     118,87      685,00"
+----------------------------------------
+CELKEM TRŽBY
+"4241,57     486,43     4728,00"
+303 Prodaný sortiment podle obj. míst
+-------------------------------------
+Kuchyně
+PLU  Název              Počet     Celkem
+----------------------------------------
+"10 Espresso           2,0       104,00"
+"11 Espresso Lungo     8,0       416,00"
+"14 Cappuccino         8,0       520,00"
+"16 Espresso Macchiato 1,0        55,00"
+"17 Latté Macchiato    3,0       207,00"
+"18 Espresso Tonic     1,0        75,00"
+"19 Long Black         1,0        60,00"
+"20 Babyccino          4,0       136,00"
+"21 Vídeňská káva      1,0        62,00"
+"22 Alžírská káva      1,0        69,00"
+----------------------------------------
+"Kuchyně Celkem                   1704,00"
+Kavárna
+PLU  Název              Počet     Celkem
+----------------------------------------
+"13 Americano          2,0       110,00"
+"30 Domácí limonáda 0,4l - malina"
+"2,0       130,00"
+"31 Domácí limonáda 0,4l - borůvka"
+"2,0       130,00"
+"32 Domácí limonáda 0,4l - bez+cit"
+"1,0        65,00"
+"45 Chito Tonic 0,25l  1,0        49,00"
+"46 Chito tonic 0,25l - zázvor"
+"3,0       147,00"
+50 Čaj - Jasmín a zelený čaj
+"3,0       165,00"
+"72 Mojito             1,0       119,00"
+"92 Baileys`           1,0        60,00"
+"103 Chardonnay polosuché 0,2l"
+"1,0        60,00"
+"104 Pinot Gris polosuché 0,2l"
+"1,0        60,00"
+Stránka 1 / 2 15.3.2023 17:11:55 Správce
+SW Pokladna SAVARIN (c)ComInn s.r.o.  www.cominn.czV I L A   S L A V I A
+"Dr. Veselého 139, 76326 Luhačovice"
+"105 Pinot Blanc suché 0,2l"
+"1,0        60,00"
+"109 Stáčené prosecco 0,1l"
+"4,0       196,00"
+"113 Svařák červený     2,0       130,00"
+"200 Lotus dort         2,0       178,00"
+201 Čokoládovo-ořechový dort
+"4,0       356,00"
+"202 Pistáciový dort    1,0        89,00"
+206 Meruňka jogurt dort
+"1,0        89,00"
+"208 Red Velvet         5,0       495,00"
+"209 Čokoládový dort    3,0       267,00"
+"220 Pana Cotta         1,0        69,00"
+----------------------------------------
+"Kavárna Celkem                   3024,00"
+========================================
+"CELKEM TRŽBY                     4728,00"
+613 Seznam poskytnutých slev
+----------------------------
+Účtenka       Částka  Sleva %      Sleva
+----------------------------------------
+----------------------------------------
+"CELKEM          0,00                0,00"
+607 Účtenky se záporným počtem
+------------------------------
+Počet dokladů                          0
+606 Stornované účtenky
+----------------------
+S T O R N O V A N Á  ÚČTENKA č.10000580
+Na stůl:1.0
+Zapsal: Správce           15.03.23 08:16
+Stornoval: Správce        15.03.23 08:16
+----------------------------------------
+"Espresso                           52,00"
+----------------------------------------
+"Celkem                     Kč      52,00"
+----------------------------------------
+"Hotově                     Kč      52,00"
+...ooOoo...
+"CELKEM                             52,00"
+Počet dokladů                          1
+602 Stornované objednávky
+-------------------------
+S T O R N O                   Doklad č.2
+Stůl:21.0
+Správce                   15.03.23 06:51
+"---------------------------------------- 660 test                  0,00       1x"
+...ooOoo...
+S T O R N O                   Doklad č.6
+Stůl:1.0
+Správce                   15.03.23 08:16
+----------------------------------------
+"10 Espresso             52,00       1x"
+...ooOoo...
+S T O R N O                  Doklad č.10
+Stůl:1.0
+Správce                   15.03.23 08:38
+----------------------------------------
+"13 Americano            55,00       2x"
+...ooOoo...
+S T O R N O                  Doklad č.14
+Stůl:1.0
+Správce                   15.03.23 08:45
+----------------------------------------
+"11 Espresso Lungo       52,00       2x"
+...ooOoo...
+S T O R N O                  Doklad č.15
+Stůl:1.0
+Správce                   15.03.23 08:45
+----------------------------------------
+"11 Espresso Lungo       52,00       2x"
+...ooOoo...
+S T O R N O                  Doklad č.16
+Stůl:5.0
+Správce                   15.03.23 08:45
+----------------------------------------
+"13 Americano            55,00       1x"
+...ooOoo...
+S T O R N O                  Doklad č.18
+Stůl:1.0
+Správce                   15.03.23 10:17
+----------------------------------------
+"10 Espresso             52,00       1x"
+...ooOoo...
+S T O R N O                  Doklad č.20
+Stůl:9.0
+Správce                   15.03.23 10:58
+----------------------------------------
+"10 Espresso             52,00       1x"
+...ooOoo...
+"CELKEM                            529,00"
+Počet dokladů                          8
+Stránka 2 / 2 15.3.2023 17:11:55 Správce
+SW Pokladna SAVARIN (c)ComInn s.r.o.  www.cominn.cz

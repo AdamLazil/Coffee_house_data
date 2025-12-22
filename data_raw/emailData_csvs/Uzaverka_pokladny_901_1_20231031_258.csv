@@ -1,0 +1,110 @@
+V I L A   S L A V I A
+"Dr. Veselého 139, 76326 Luhačovice"
+901 Uzávěrka
+31.10.2023
+------------
+V I L A   S L A V I A
+"Dr. Veselého 139, 76326 Luhačovice"
+Středisko: 1 - Restaurace
+Vystavil : Správce
+31.10.2023                         17:19
+========================================
+103 Tržba podle rastrů
+----------------------
+"Koktejly                          119,00"
+"Nealko koktejly a vina             89,00"
+"Dezerty/pečené                     89,00"
+"Dorty                             623,00"
+"Káva                              278,00"
+"Nealko                            293,00"
+"Teplé nealko                       59,00"
+----------------------------------------
+"CELKEM TRŽBY                     1550,00"
+111 Tržba podle plateb s rozpisem
+---------------------------------
+ÚČTENKY
+=======
+Platba             Cizí měna Domácí měna
+----------------------------------------
+"Hotově                           1051,00"
+"Platební karta                    499,00"
+----------------------------------------
+"CELKEM                           1550,00"
+ODVODY
+======
+Platba                             Odvod
+----------------------------------------
+"Hotově                           1051,00"
+"Platební karta                    499,00"
+Rozpis bezhotovostních plateb
+-----------------------------
+Číslo    Částka  Poplatek
+----------------------------------------
+Typ platby : Platební karta
+----------------------------------------
+"10012864    499,00"
+----------------------------------------
+"CELKEM Platební karta           499,00"
+201 Rozpis DPH                          --------------
+Sazba      Základ        Daň      Celkem
+----------------------------------------
+"10%     1220,01     121,99     1342,00"
+"15%       77,39      11,61       89,00"
+"21%       98,35      20,65      119,00"
+----------------------------------------
+CELKEM TRŽBY
+"1395,75     154,25     1550,00"
+303 Prodaný sortiment podle obj. míst
+-------------------------------------
+Kuchyně
+PLU  Název              Počet     Celkem
+----------------------------------------
+"14 Cappuccino         1,0        65,00"
+"15 Flat White         1,0        75,00"
+"21 Vídeňská káva      2,0       138,00"
+----------------------------------------
+"Kuchyně Celkem                    278,00"
+Kavárna
+PLU  Název              Počet     Celkem
+----------------------------------------
+"37 Jemně perlivá 0,33l"
+"5,0       195,00"
+"43 Rauch džus 0,2l - jablečný"
+"1,0        49,00"
+49 Čaj - Levandule&heřmánek
+"1,0        59,00"
+"57 Růžový tonic       1,0        49,00"
+"72 Mojito             1,0       119,00"
+"122 Nealko Mojito      1,0        89,00"
+"205 Koňak špička dort  1,0        89,00"
+"207 Rafaelo dort       1,0        89,00"
+"209 Čokoládový dort    2,0       178,00"
+212 Větrník slaný karamel
+"1,0        89,00"
+"225 Malina-tvaroh dort 3,0       267,00"
+----------------------------------------
+"Kavárna Celkem                   1272,00"
+========================================
+"CELKEM TRŽBY                     1550,00"
+613 Seznam poskytnutých slev
+----------------------------
+Účtenka       Částka  Sleva %      Sleva
+----------------------------------------
+----------------------------------------
+"CELKEM          0,00                0,00"
+607 Účtenky se záporným počtem
+------------------------------
+Počet dokladů                          0
+Stránka 1 / 2 31.10.2023 17:19:49 Správce
+SW Pokladna SAVARIN (c)ComInn s.r.o.  www.cominn.czV I L A   S L A V I A
+"Dr. Veselého 139, 76326 Luhačovice"
+606 Stornované účtenky
+----------------------
+"CELKEM                              0,00"
+Počet dokladů                          0
+602 Stornované objednávky
+-------------------------
+"CELKEM                              0,00"
+Počet dokladů                          0
+Stránka 2 / 2 31.10.2023 17:19:49 Správce
+SW Pokladna SAVARIN (c)ComInn s.r.o.  www.cominn.cz

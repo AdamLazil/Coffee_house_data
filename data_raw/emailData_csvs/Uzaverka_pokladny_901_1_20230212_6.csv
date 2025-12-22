@@ -1,0 +1,91 @@
+V I L A   S L A V I A
+"Dr. Veselého 139, 76326 Luhačovice"
+901 Uzávěrka
+12.02.2023
+------------
+V I L A   S L A V I A
+"Dr. Veselého 139, 76326 Luhačovice"
+Středisko: 1 - Restaurace
+Vystavil : Správce
+13.02.2023                         07:40
+========================================
+103 Tržba podle rastrů
+----------------------
+"Nealko                            195,00"
+"Alkohol                           237,00"
+----------------------------------------
+"CELKEM TRŽBY                      432,00"
+111 Tržba podle plateb s rozpisem
+---------------------------------
+ÚČTENKY
+=======
+Platba             Cizí měna Domácí měna
+----------------------------------------
+"Platební karta                    432,00"
+----------------------------------------
+"CELKEM                            432,00"
+ODVODY
+======
+Platba                             Odvod
+----------------------------------------
+"Platební karta                    432,00"
+Rozpis bezhotovostních plateb
+-----------------------------
+Číslo    Částka  Poplatek
+----------------------------------------
+Typ platby : Platební karta
+----------------------------------------
+"10000019    432,00"
+----------------------------------------
+"CELKEM Platební karta           432,00"
+201 Rozpis DPH
+--------------
+Sazba      Základ        Daň      Celkem
+----------------------------------------
+"0%        0,00       0,00        0,00"
+"10%      177,27      17,73      195,00"
+"21%      195,87      41,13      237,00"
+----------------------------------------CELKEM TRŽBY
+"373,14      58,86      432,00"
+303 Prodaný sortiment podle obj. míst
+-------------------------------------
+Kavárna
+PLU  Název              Počet     Celkem
+----------------------------------------
+"38 Neperlivá 0,33l    5,0       195,00"
+105 Prosecco (do Aperolu)
+"3,0       237,00"
+----------------------------------------
+"Kavárna Celkem                    432,00"
+penzion
+PLU  Název              Počet     Celkem
+----------------------------------------
+304 Snídaně - Banánové lívance s b
+"1,0         0,00"
+306 Snídaně - Míchaná vejce se sla
+"2,0         0,00"
+"308 Přílohový salátek  2,0         0,00"
+"310 Kváskový chléb     2,0         0,00"
+----------------------------------------
+"penzion Celkem                      0,00"
+========================================
+"CELKEM TRŽBY                      432,00"
+613 Seznam poskytnutých slev
+----------------------------
+Účtenka       Částka  Sleva %      Sleva
+----------------------------------------
+----------------------------------------
+"CELKEM          0,00                0,00"
+607 Účtenky se záporným počtem
+------------------------------
+Počet dokladů                          0
+606 Stornované účtenky
+----------------------
+"CELKEM                              0,00"
+Počet dokladů                          0
+602 Stornované objednávky
+-------------------------
+"CELKEM                              0,00"
+Počet dokladů                          0
+Stránka 1 / 1 13.2.2023 7:40:49 Správce
+SW Pokladna SAVARIN (c)ComInn s.r.o.  www.cominn.cz
