@@ -1,6 +1,11 @@
 import re
+import os
+import pandas as pd
 
-data_path = "output.csv"
+input_path = (
+    "E:/práce/firmy/cafe slavia/analysis/Coffee_house_data/data_raw/emailData_csvs"
+)
+output_path = "E:/práce/firmy/cafe slavia/analysis/Coffee_house_data/data_clean"
 
 
 # function to extract date from lines based on pattern
@@ -65,25 +70,64 @@ def separate_values(lines, pattern, date):
 def save_section_to_csv(section, output_path):
     with open(output_path, "w", encoding="utf-8") as file:
         for plu, name, mount, price, date in section:
+            mount, price = mount.replace(",", "."), price.replace(
+                ",", "."
+            )  # normalize decimal points
             file.write(f"{plu},{name},{mount},{price},{date}\n")
 
 
+def procesed_csvfolder(input_path, output_path):
+    """process all CSVs in a folder to extract sections and save to new CSVs."""
+    for filename in os.listdir(input_path):
+        if not filename.lower().endswith(".csv"):
+            continue
+
+        csv_path = os.path.join(input_path, filename)
+        output_name = os.path.splitext(filename)[0] + "_extracted_sortiment.csv"
+        output_path = os.path.join(output_path, output_name)
+
+        with open(csv_path, "r", encoding="utf-8") as file:
+            lines = file.readlines()
+
+        start_pattern = r"Kavárna|Kuchyně"
+        end_pattern = r"CELKEM"
+        # pattern_plu = r"(\d{1,3})\s+(\w[\w\s\w]*)\s+(?:\-\s?\w[\w\s\w]*)\s+(\d{1,2}\,\d{1,2})\s+(\d{1,4}[,\.]\d{2})$"
+        pattern_plu = r"^(\d{1,3})\s+(.+?)(?:\s+\d+[,\.]?\d*l.*?-.*?\s+)?(\d+,\d+)\s+(\d+[.,]\d{2})$"
+        pattern_date = r"(\d{1,2}\.\d{1,2}\.\d{4})"
+        date = extract_date(lines, pattern_date)
+        section = extract_sortiment(lines, start_pattern, end_pattern)
+        joined = joiner(section)
+        separated = separate_values(joined, pattern_plu, date)
+        save_section_to_csv(separated, output_path)
+
+
+def join_cvs(input_folder, output_file):
+    dataframes = []
+    for filename in os.listdir(input_folder):
+        if not filename.lower().endswith("_extracted_sortiment.csv"):
+            continue
+
+        csv_path = os.path.join(input_folder, filename)
+        df = pd.read_csv(
+            csv_path,
+            header=None,
+            names=["PLU", "Name", "Mount", "Price", "Date"],
+            dtype=str,
+            sep=",",
+            engine="python",
+        )
+        dataframes.append(df)
+
+    if dataframes:
+        combined_df = pd.concat(dataframes, ignore_index=True)
+        combined_df.to_csv(output_file, index=False, header=False)
+
+
 def main():
-    with open(data_path, "r", encoding="utf-8") as file:
-        lines = file.readlines()
-    start_pattern = r"Kavárna|Kuchyně"
-    end_pattern = r"CELKEM"
-    # pattern_plu = r"(\d{1,3})\s+(\w[\w\s\w]*)\s+(?:\-\s?\w[\w\s\w]*)\s+(\d{1,2}\,\d{1,2})\s+(\d{1,4}[,\.]\d{2})$"
-    pattern_plu = (
-        r"^(\d{1,3})\s+(.+?)(?:\s+\d+[,\.]?\d*l.*?-.*?\s+)?(\d+,\d+)\s+(\d+[.,]\d{2})$"
-    )
-    pattern_date = r"(\d{1,2}\.\d{1,2}\.\d{4})"
-    date = extract_date(lines, pattern_date)
-    section = extract_sortiment(lines, start_pattern, end_pattern)
-    joined = joiner(section)
-    separated = separate_values(joined, pattern_plu, date)
-    output_path = "extracted_sortiment.csv"
-    save_section_to_csv(separated, output_path)
+
+    procesed_csvfolder(input_path, output_path)
+    output_file = os.path.join(output_path, "combined_sortiment.csv")
+    join_cvs(output_path, output_file)
 
 
 if __name__ == "__main__":
