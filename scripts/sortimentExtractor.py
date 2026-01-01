@@ -73,7 +73,7 @@ def save_section_to_csv(section, output_path):
             mount, price = mount.replace(",", "."), price.replace(
                 ",", "."
             )  # normalize decimal points
-            file.write(f"{plu},{name},{mount},{price},{date}\n")
+            file.write(f"{plu};{name};{mount};{price};{date}\n")
 
 
 def procesed_csvfolder(input_path, output_path):
@@ -84,7 +84,7 @@ def procesed_csvfolder(input_path, output_path):
 
         csv_path = os.path.join(input_path, filename)
         output_name = os.path.splitext(filename)[0] + "_extracted_sortiment.csv"
-        output_path = os.path.join(output_path, output_name)
+        output_csv_path = os.path.join(output_path, output_name)
 
         with open(csv_path, "r", encoding="utf-8") as file:
             lines = file.readlines()
@@ -98,7 +98,7 @@ def procesed_csvfolder(input_path, output_path):
         section = extract_sortiment(lines, start_pattern, end_pattern)
         joined = joiner(section)
         separated = separate_values(joined, pattern_plu, date)
-        save_section_to_csv(separated, output_path)
+        save_section_to_csv(separated, output_csv_path)
 
 
 def join_cvs(input_folder, output_file):
@@ -113,8 +113,9 @@ def join_cvs(input_folder, output_file):
             header=None,
             names=["PLU", "Name", "Mount", "Price", "Date"],
             dtype=str,
-            sep=",",
+            sep=";",
             engine="python",
+            encoding="utf-8=sig",
         )
         dataframes.append(df)
 
@@ -124,6 +125,8 @@ def join_cvs(input_folder, output_file):
 
 
 def main():
+    if not os.path.exists(output_path):
+        os.makedirs(output_path)
 
     procesed_csvfolder(input_path, output_path)
     output_file = os.path.join(output_path, "combined_sortiment.csv")
