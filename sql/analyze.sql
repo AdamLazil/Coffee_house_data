@@ -18,10 +18,20 @@ drop view time_income;
 select * from time_income;
 	 
 -- according weekday
-select 	
-     sum(income),
+with cte as (
+select
+     sum(income) as income,
+     extract(ISODOW from ti.date) as numday,
      weekday
 from time_income ti
-group by weekday
-order by sum(income) ;
+group by weekday, extract(ISODOW from ti.date)
+)
+select
+	 income,
+	 numday,
+	 weekday
+from cte
+order by numday;
+
+;
      
