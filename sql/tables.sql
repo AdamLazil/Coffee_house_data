@@ -36,6 +36,7 @@ with (format csv, header, delimiter ',',encoding 'utf-8');
 
 select * from sell_sortiment;
 
+----------
 create table cash_register (
 	plu integer,
 	norm varchar,
@@ -58,10 +59,18 @@ copy cash_register
 from 'C:/Program Files/PostgreSQL/17/data/coffeHouse/cenikpokladny.csv'
 with (format csv, header, delimiter ';',encoding 'win1250');
 
+----- Legacy data
 
-select ss.*,
-	   cr.rastr_num
-from sell_sortiment ss
-join cash_register cr using(plu);
+create table income_legacy (
+	day varchar(10),
+	value integer,
+	month smallint
+);
+
+copy income_legacy
+from 'C:/Program Files/PostgreSQL/17/data/coffeHouse/incomeLegacy.csv'
+with (format csv, header, delimiter ';',encoding 'utf-8');
+
+select * from income_legacy;
 
 	
